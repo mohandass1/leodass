@@ -1,0 +1,103 @@
+nav{
+    background-color: black;    
+}
+ul{
+    display: flex;
+    margin-left: 30%;  
+    margin-right: 20%; 
+}
+li{
+    display: inline;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100px;
+    padding: 20px;  
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+}
+body{
+    background-color: rgb(177, 149, 149);
+}
+#logo{
+    width: 50px;
+}
+.hed1{
+    color: rgb(222, 23, 139);
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    border: 5px solid black;
+    text-align: center; 
+}
+#img1{
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+#img2{
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
+#img3{
+    width:200px;
+    float: left;
+    padding: 10px;
+}
+#img4
+{   
+    float: right;
+    width: 200px;
+    padding: 10px;
+}
+#div1
+{
+    margin-top: 10%;
+    display: flex;
+    flex: 2;
+}
+div.left{
+    display: inline-block;
+    width: 500px;
+    background-color: rgb(231, 231, 243);
+    color: black;
+    padding: 10px; 
+}
+div.right{
+    display: inline-block;
+    width: 500px;
+    background-color: rgb(172, 172, 233);
+    color: black;
+    padding: 10px;
+    margin-left: 5%;    
+}
+.left2{
+    display: inline-block;
+    width: 500px;
+    background-color: rgb(135, 196, 242);
+    color: black;
+    padding: 10px;
+    margin-left: 5%;   
+}
+.right2{
+    margin-top: 30px;
+    display: inline-block;
+    width: 500px;  
+    background-color: rgb(231, 231, 243);
+    color: black;
+    padding: 10px; 
+    margin-left: 5%;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    clear: both;
+    margin-top: 100px;
+    padding: 20px;
+}
